@@ -1,0 +1,116 @@
+body {
+	background: #e2dadb;
+	font-family: 'Raleway', sans-serif;
+	color: #200116;
+	font-size: 16px
+	line-height: 1,8;
+}
+
+h1, h2 {
+	font-family: 'Notable', sans-serif;
+	line-height: 1,5;
+}
+
+h1{
+	font-size: 40px;
+	letter-spacing: 4px;
+	color: #331832;
+}
+
+h2{
+	font-size:26px;
+	letter-spacing: 2px;
+	color: #773344;
+}
+
+a{
+	color: #200116;
+	text-decoration: none;
+	transition: color 0,3s ease
+}
+
+a:hover{
+	color: #ad343e;
+	text-decoration: none;
+}
+
+
+.container {
+	width: 800px;
+	margin: 50px auto;
+	text-align: center;
+}
+
+@media (max-width: 900px) {
+	.container {
+		width: 700px
+	}
+}
+@media (max-width: 750px) {
+	.container {
+		width: 600px
+	}
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 450px
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 380px
+	}
+}
+
+@media (max-width: 400px) {
+	.container {
+		width: 280px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: 0px 5px 3px rgba(0,0,0,0.1);
+	padding: 30px;
+	margin: 20px 0px;
+}
+
+.img-round {
+	border-radius:50%;
+}
+
+.btn-pink {
+	background-color: #ad343e;
+	color: #200116;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.btn-pink:hover {
+	background-color: #200116;
+	color: #ad343e;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 0px 20px;
+}
+
+.list-inline i {
+	font-size: 40px;
+}
+#space-bottom {
+	padding-bottom: 80px;
+}
+
+#space-bottom p {
+	margin-bottom: 60px;
+}
